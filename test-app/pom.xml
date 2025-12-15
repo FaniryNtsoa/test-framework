@@ -53,6 +53,13 @@
             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
             <version>3.0.1</version>
         </dependency>
+
+        <!-- Framework Web maison -->
+        <dependency>
+            <groupId>com.framework</groupId>
+            <artifactId>framework-web</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
     
     <build>
@@ -68,6 +75,7 @@
                     <source>17</source>
                     <target>17</target>
                     <encoding>UTF-8</encoding>
+                    <parameters>true</parameters>
                 </configuration>
             </plugin>
             

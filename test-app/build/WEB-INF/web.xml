@@ -11,22 +11,11 @@
         Application de test pour tester le mini-framework externe (framework-web) 
         avec son FrontController qui intercepte toutes les requêtes HTTP.
     </description>
-    
-    <!-- Configuration du FrontServlet du framework -->
-    <!-- <servlet>
-        <servlet-name>FrontServlet</servlet-name>
-        <servlet-class>com.framework.FrontServlet</servlet-class>
-        <load-on-startup>1</load-on-startup>
-    </servlet>
-    
-    <servlet-mapping>
-        <servlet-name>FrontServlet</servlet-name>
-        <url-pattern>/</url-pattern>
-    </servlet-mapping> -->
-    
-    <!-- Page d'accueil par défaut -->
-    <!-- <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
-    </welcome-file-list> -->
+
+    <!-- Configuration du package à scanner pour les contrôleurs -->
+    <context-param>
+        <param-name>controllers-packages</param-name>
+        <param-value>com.test</param-value>
+    </context-param>
 
 </web-app>
