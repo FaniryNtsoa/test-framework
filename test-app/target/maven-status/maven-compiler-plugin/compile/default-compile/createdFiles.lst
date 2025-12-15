@@ -8,6 +8,7 @@ com\test\controllers\Sprint7Controller.class
 com\test\controllers\ViewTestController.class
 com\test\controllers\ProductController.class
 com\test\controllers\DebugController.class
+com\test\controllers\Sprint8Controller.class
 com\test\controllers\Sprint4TestController.class
 com\test\controllers\EtudiantController.class
 com\test\controllers\Sprint6TerController.class
