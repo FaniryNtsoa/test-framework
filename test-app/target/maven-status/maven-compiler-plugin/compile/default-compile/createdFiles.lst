@@ -1,12 +1,15 @@
 com\test\controllers\DepartementController.class
 com\test\controllers\ApiController.class
 com\test\controllers\TestController.class
+com\test\controllers\dto\GroupRegistration.class
 com\test\controllers\HomeController.class
 com\test\controllers\UserController.class
 com\test\controllers\AdminController.class
 com\test\controllers\Sprint7Controller.class
 com\test\controllers\ViewTestController.class
 com\test\controllers\ProductController.class
+com\test\controllers\dto\Participant.class
+com\test\controllers\Sprint8BisController.class
 com\test\controllers\DebugController.class
 com\test\controllers\Sprint8Controller.class
 com\test\controllers\Sprint4TestController.class
